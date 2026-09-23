@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Community Hospital - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sunrise Community Hospital</h1>
+            <!-- Fixed image path and extension typo -->
+            <img src="../img/log.png" alt="Sunrise Community Hospital Logo" style="height: 40px; vertical-align: middle;">
+        </div>
+        <nav>
+            <ul>
+                <!-- Fixed active classes: only Home should be active -->
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="appointment.php">Book Appointment</a></li>
+                <li><a href="admin.php">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Your Health, Our Priority</h2>
+            <p>Providing exceptional, accessible healthcare services for the entire community.</p>
+            <br>
+            <a href="appointment.php" class="btn">Book Appointment Now</a>
+        </section>
+
+        
+
+        <section>
+            <h3>Why Choose Us?</h3>
+            <div class="grid-container">
+                <div class="card">
+                    <!-- Task 1 (d): Image 1 -->
+                    <img src="../img/eq.jpg" alt="Hospital Facility">
+                    <h4>Modern Facilities</h4>
+                    <p>Equipped with state-of-the-art medical technology to provide reliable diagnosis and treatment.</p>
+                </div>
+                <div class="card">
+                    <!-- Task 1 (d): Image 2 -->
+                    <img src="../img/per.jpg" alt="Medical Doctors">
+                    <h4>Expert Personnel</h4>
+                    <p>Our team consists of highly qualified doctors, nurses, and specialists committed to patient care.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <!-- Ensures PHP executes correctly if saved as index.php -->
+        <p>&copy; <?php echo date("Y"); ?> Sunrise Community Hospital. All rights reserved.</p>
+    </footer>
+
+    <!-- Fixed script path -->
+    <script src="script.js"></script>
+</body>
+</html>

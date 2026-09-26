@@ -15,28 +15,28 @@ document.addEventListener('DOMContentLoaded', () => {
             // Clear previous errors
             document.querySelectorAll('.error-msg').forEach(el => el.textContent = '');
 
-            // 1. Patient Name Validation
+            //  Patient Name Validation
             const name = document.getElementById('patient_name').value.trim();
             if (name === '') {
                 showError('nameError', 'Patient Name is required.');
                 isValid = false;
             }
 
-            // 2. National ID Validation
+            // National ID Validation
             const nationalId = document.getElementById('national_id').value.trim();
             if (nationalId === '') {
                 showError('idError', 'National ID Number is required.');
                 isValid = false;
             }
 
-            // 3. Gender Validation
+            // Gender Validation
             const gender = document.getElementById('gender').value;
             if (gender === '') {
                 showError('genderError', 'Please select a gender.');
                 isValid = false;
             }
 
-            // 4. Phone Number Validation (Kenyan / Standard format check)
+            // Phone Number Validation (Kenyan / Standard format check)
             const phone = document.getElementById('phone_number').value.trim();
             const phoneRegex = /^(?:\+254|0)[17]\d{8}$/;
             if (phone === '') {
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 isValid = false;
             }
 
-            // 5. Email Address Format Validation
+            // Email Address Format Validation
             const email = document.getElementById('email_address').value.trim();
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (email === '') {
@@ -58,14 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 isValid = false;
             }
 
-            // 6. Department Selection Validation
+            // Department Selection Validation
             const department = document.getElementById('department').value;
             if (department === '') {
                 showError('deptError', 'Please select a department.');
                 isValid = false;
             }
 
-            // 7. Appointment Date Validation
+            // Appointment Date Validation
             const selectedDateStr = document.getElementById('appointment_date').value;
             if (selectedDateStr === '') {
                 showError('dateError', 'Appointment Date is required.');

@@ -1,4 +1,4 @@
-
+// script
 document.addEventListener('DOMContentLoaded', () => {
     const healthTipContainer = document.getElementById('api-health-tips');
 

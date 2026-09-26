@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Sunrise Community Hospital</title>
+    <title>About Us </title>
     <!-- Updated CSS folder path -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +19,7 @@
                 <li><a href="about.php" class="active">About Us</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="appointment.php">Book Appointment</a></li>
+                <li><a href="appointment.php">Appointment</a></li>
                 <li><a href="admin.php">Admin</a></li>
             </ul>
         </nav>

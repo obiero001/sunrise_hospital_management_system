@@ -1,5 +1,5 @@
 <?php
-// api/appointments.php - JSON API Endpoint (Task 7 Option B)
+// appointments.php - JSON API Endpoint (Task 7 Option B)
 header('Content-Type: application/json; charset=utf-8');
 require_once 'connect_db.php';
 

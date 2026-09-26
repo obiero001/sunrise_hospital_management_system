@@ -1,5 +1,5 @@
 <?php
-
+// db connection
 $host = 'localhost';
 $db   = 'hospital_management';
 $user = 'root';

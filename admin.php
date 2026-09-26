@@ -1,5 +1,5 @@
 <?php
-// admin.php - Manage Appointments
+//  Manage Appointments
 require_once 'connect_db.php'; 
 
 $message = '';

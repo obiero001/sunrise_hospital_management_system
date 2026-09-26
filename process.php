@@ -97,7 +97,7 @@ if (!empty($errors)) {
     exit;
 }
 
-// 3. Database Insertion using PDO Prepared Statements
+// 3. Database Insertion 
 try {
     $sql = "INSERT INTO appointments 
             (patient_name, national_id, gender, phone_number, email_address, department, appointment_date) 

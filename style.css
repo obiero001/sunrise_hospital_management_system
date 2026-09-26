@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    background-color: #1a1a1a;
+    background-color: #e2dcdc;
     border-bottom: 2px solid var(--primary-color);
     padding: 1rem 2rem;
     display: flex;
